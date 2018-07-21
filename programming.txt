@@ -1,1 +1,31 @@
-so here by we are starting our first programming practice questions and we will be adding new questions regularly
+How to upload your files to github
+
+steps:
+sudo apt-get install git
+git config --global user.name "androidbg"
+git config --global user.email "gmail.com"
+mkdir Gitandroidbg
+echo "# hello-world" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/username/hello-world.git
+git push -u origin master
+
+
+adding new files
+cat programming.txt
+git add programming.txt 
+git commit -m "added new file programming.txt"
+git remote add origin https://github.com/username/hello-world.git
+git push -u origin master
+
+
+
+
+
+1.create an account in Github
+2.create a new repository
+3.now follow the commands which are available in the webpage
+4.use a local folder in your machine so that you can understand what you are doing
+5.
